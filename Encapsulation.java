@@ -1,7 +1,7 @@
 
 class Encapsulation{
     public static void main(String[] args) {
-        //What is Encapsulation : Encapsulation is binding data and methods together and hiding the internal data by making variables private and accessing them through public methods (getters and setters).
+        //What is Encapsulation : Encapsulation is binding data and methods together in a single unit and hiding the internal data by making variables private and accessing them through public methods (getters and setters).
         //Encapsulation is the process of hiding data and allowing controlled access to it using methods(getter and setter).
         democlass obj=new democlass();
         obj.setname("Surya");
