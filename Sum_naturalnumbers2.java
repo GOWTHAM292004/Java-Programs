@@ -11,6 +11,7 @@ public class Sum_naturalnumbers2 {
             sum+=a;
             a++;
         }
+        System.out.print("The sum of n Natural number is : ");
         System.out.println(sum);
     }
 }
