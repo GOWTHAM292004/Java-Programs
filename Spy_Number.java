@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Spy_Number {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the Input : ");
         int input=sc.nextInt();
         int temp=input;
         int sum=0;
