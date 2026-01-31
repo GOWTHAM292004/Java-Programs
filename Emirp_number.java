@@ -6,7 +6,7 @@ public class Emirp_number {
         int input =sc.nextInt();
         int temp=input;
         boolean isprime=true;
-        for(int i=2;i<temp/2;i++){
+        for(int i=2;i<=temp/2;i++){
             if(input%i==0){
                 isprime=false;
             }
@@ -19,13 +19,16 @@ public class Emirp_number {
                 reverse=reverse*10+digit;
                 temp=temp/10;
             }
-            for(int i=2;i<reverse/2;i++){
+            for(int i=2;i<=reverse/2;i++){
                 if(reverse%i==0){
                     rev_isprime=false;
                 }
             }
-            if(isprime==true && rev_isprime==true){
+            if(isprime==true && rev_isprime==true && reverse!=input){
                 System.out.println("It is a Emirp Number");
+            }
+            else{
+                System.out.println("It is not a Emirp Number");
             }
         }
         else{
